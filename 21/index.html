@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            font-size: 12px;
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* pixels */
+            /* width: 1920px;   */
+            /* view port width percentage */
+            width: 90vw; 
+            /* centers block line element */
+            margin: auto;
+            /* viewport height percentage */
+            height: 10vh;
+            background-color: aqua;
+        }  
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* pixels */
+            /* width: 1920px;   */
+            /* view port width percentage */
+            width: 80vw; 
+            /* centers block line element */
+            margin: 23px auto;
+            /* viewport height percentage */
+            height: 80vh;
+            font-size: 16px;
+            background-color: aqua;
+        } 
+        
+        .container p{
+            /* take from parent and multiply by em value */
+            font-size: 2rem;
+        }
+
+        .cont{
+            background-color: red;
+            color: yellow;
+            font-size: 20px;
+            width: 100vh;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">This is a box</div>
+    <div class="container">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio odio facere pariatur deserunt necessitatibus tempore doloremque voluptate eaque cumque. Eos at, eaque amet qui itaque ipsam, magnam officiis suscipit voluptatem nemo labore velit harum dolore consectetur tempore, fugiat dignissimos obcaecati maxime aspernatur modi distinctio necessitatibus delectus. Explicabo eveniet nam, dolor suscipit nisi praesentium numquam iure ut?</p>
+    </div>
+
+    <div class="cont">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur necessitatibus corporis similique dicta doloribus sequi sunt dolores rerum perferendis minima.
+    </div>
+</body>
+</html>
