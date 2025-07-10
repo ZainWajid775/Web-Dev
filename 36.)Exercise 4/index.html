@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color: #c10c0c;
+            --text-color: #fff;
+            --secondary-color: #333;
+        }
+
+        body{
+            background-color: var(--secondary-color);
+        }
+        
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        nav{
+            background-color: var(--primary-color);
+            padding: 10px;
+        }
+
+        ul li{
+            display: inline-block;
+            padding: 10px;
+            list-style-type: none;
+            color: var(--text-color);
+        }
+
+        ul li a{
+            color: var(--text-color);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
