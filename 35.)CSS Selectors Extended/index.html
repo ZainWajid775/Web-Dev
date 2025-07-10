@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+
+        /* .box::first-line{
+            color: yellow;
+        } */
+
+        /* .boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+
+        p, a, .box, [data-color="primary"]{
+            padding-top: 45px;
+        } */
+
+        /* .box:nth-child(odd){
+            background-color: blue;
+        } */
+
+        /* .box:nth-last-child(2){
+            background-color: red;
+        } */
+
+        .boxes::before {
+            content: "Harry is good";
+            color: blue;
+        }
+
+        .boxes::after {
+            content: "Sigma course is also good";
+            color: red;
+        }
+
+        ::selection {
+            background-color: black;
+            color: aqua;
+        }
+
+        .box::first-letter {
+            color: peru;
+            font-size: 45px;
+        }
+
+        input::placeholder {
+            color: rgb(84, 84, 88);
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Box 1</div>
+        <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat culpa cumque molestias accusamus consectetur molestiae modi, reiciendis laboriosam incidunt asperiores odit neque magnam, odio omnis aliquid alias dolorum, exercitationem quae corporis hic! Esse quaerat nam, sed tempore, soluta expedita illo nemo, magnam recusandae inventore saepe.</div>
+        <div class="box">Box 3</div>
+    </div>
+</body>
+</html>
