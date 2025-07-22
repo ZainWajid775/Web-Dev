@@ -7,9 +7,13 @@
     font-family: 'Poppins';
 }
 
+body{
+    background-color: black;
+}
+
 .main{
     background-image: url("assets/images/bg.jpg");
-    height: 80vh;
+    height: 70vh;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
@@ -17,9 +21,9 @@
 }
 
 .main .box{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
-    opacity: 0.44;
+    opacity: 0.69;
     background-color: black;
     position: absolute;
     top: 0%;
@@ -47,7 +51,7 @@ nav button{
 }
 
 .hero{
-    height: 100%;
+    height: calc(100% - 62px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,19 +60,66 @@ nav button{
     position: relative;
     font-family: 'Martel Sans', sans-serif;
     gap: 23px;
+    padding: 0 30px;
+    
 }
 
-.hero :first-child{
+.hero> :nth-child(1){
     font-weight: bolder;
     font-size: 48px;
+    text-align: center;
 }
 
-.hero :nth-child(2){
+.hero> :nth-child(2){
     font-weight: 400;
     font-size: 24px;
+    text-align: center;
 }
 
-.hero :nth-child(3){
+.hero> :nth-child(3){
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
+}
+
+.seperation{
+    height: 7px;
+    background-color: rgb(58, 58, 58);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.btn-red{
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+
+.main input{
+    padding: 7px 101px 8px 14px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
 }
