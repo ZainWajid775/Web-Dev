@@ -1,8 +1,5 @@
 console.log("Hello")
 
-setTimeout(() =>{
-    console.log("Timeout 1")
-}, 2000);
 
 setTimeout(() =>{
     console.log("Timeout 2")
